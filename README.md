@@ -102,7 +102,7 @@ g++ -o 5 5.cpp
 
 ### Formar un menú con los siguientes dos programas:  
 
-Realizar una función, y un programa que la utilice, que muestre el problema de Collatz (*Ulam problem*)¹².
+Realizar una función, y un programa que la utilice, que muestre el problema de Collatz (*Ulam problem*) [¹](#notas) [²](#notas) .
 Sea `a_0` un entero. Entonces uno de los problemas de Collatz pregunta si iterando:  
 
 ![collatz o ulam](http://mathworld.wolfram.com/images/equations/CollatzProblem/NumberedEquation1.gif)  

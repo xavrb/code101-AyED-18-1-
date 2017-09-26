@@ -18,7 +18,7 @@ cout << " vamonos ";
 
 ```
 a. FOR2  
-b. FOR2vamonos  
+**b. FOR2vamonos**
 c. FOR0vamonos  
 d. FOR1  
 e. FOR2  
@@ -42,7 +42,7 @@ c. 3
 d. For  
 e. 4  
 f. 3For3
-g. For4  
+**g. For4** 
 h. ninguna
 ```
 4. ¿Cuál es el ciclo que primero pregunta la condición y después se ejecuta o no?
@@ -51,9 +51,9 @@ a. if
 b. switch     
 c. while      
 d. case     
-e. do..while      
+e. do...while      
 f. else   
-g. while…do      
+**g. while...do**      
 h. ninguna
 ``` 
 
@@ -78,7 +78,21 @@ g. 0
 h. XX25  
 i. X8  
 
+**Nota: Este código no puede ser compilado**  
+*¿Por qué?*  
+`while` no admite `;` dentro del argumento; admite una condición lógica, que puede estar compuesta, i.e. `while(A OR B AND C OR D)`.  
+La salida de g++ es:  
+```shell
+g++ -o 5 5.cpp 
+5.cpp: En la función ‘int main()’:
+5.cpp:8:14: error: expected ‘)’ before ‘;’ token
+     while(X=5; X!=5; X--){
+              ^
+5.cpp:8:25: error: expected ‘;’ before ‘)’ token
+     while(X=5; X!=5; X--){
+                         ^
 
+```
            
 ---
 
@@ -87,15 +101,20 @@ i. X8
 
 ### Formar un menú con los siguientes dos programas:  
 
-Realizar una función, y un programa que la utilice, que muestre la serie de ULAM (A un numero dado mayor a 0 ; cada elemento de la serie se va obteniendo de la siguiente forma : si es par dividirlo entre dos y si es impar multiplicarlo por tres y sumarle 1; y terminará al llegar a 1 . ejemplo : la serie de ULAM del número 5 es  :  5, 16,8,4,2,1 .
+Realizar una función, y un programa que la utilice, que muestre el problema de Collatz (*Ulam problem*)¹².
+Sea `a_0` un entero. Entonces uno de los problemas de Collatz pregunta si iterando:
+![collatz o ulam](http://mathworld.wolfram.com/images/equations/CollatzProblem/NumberedEquation1.gif)
+Siempre regresa `1` para `a_0` positivo.
+
+Ejemplo :   Para `a_0=5` es  :  `5, 16, 8, 4, 2, 1`  
 
 Realizar una función , y un programa que la utilice, para mostrar la serie (así como se observa):  
 
 `1/1  +  9/3  +  25/5  + 49/7  +  81/9  +  121/11  +  169/13`
 
 
-## INVESTIGAR (Para próxima clase)
-
+## INVESTIGAR (Para próxima clase)  
+*resuelto*
 
 En forma individual favor de investigar los siguientes paradigmas de programación: Estructurado, Orientado a Objetos y Modular.  
 
@@ -113,4 +132,13 @@ Se presenta históricamente como una evolución de la programación estructurad
 Al aplicar la programación modular, un problema complejo debe ser dividido en varios subproblemas más simples, y estos a su vez en otros subproblemas más simples. Esto debe hacerse hasta obtener subproblemas lo suficientemente simples como para poder ser resueltos fácilmente con algún lenguaje de programación. Esta técnica se llama refinamiento sucesivo, divide y vencerás ó análisis descendente (Top-Down).
 Un 'módulo' es cada una de las partes de un programa que resuelve uno de los subproblemas en que se divide el problema complejo original. Cada uno de estos módulos tiene una tarea bien definida y algunos necesitan de otros para poder operar. En caso de que un módulo necesite de otro, puede comunicarse con éste mediante una interfaz de comunicación que también debe estar bien definida.
 Si bien un módulo puede entenderse como una parte de un programa en cualquiera de sus formas y variados contextos, en la práctica se los suele tomar como sinónimos de procedimientos y funciones. Pero no necesaria ni estrictamente un módulo es una función o un procedimiento, ya que el mismo puede contener muchos de ellos. No debe confundirse el término "módulo" (en el sentido de programación modular) con términos como "función" o "procedimiento", propios del lenguaje que lo soporte.
+
+
+
+
+
+## Notas
+[1] Wolfram Knowledge: [Collatz Problem](http://mathworld.wolfram.com/CollatzProblem.html)  
+[2] The On-Line Encyclopedia of Integer Sequences:  [Number of halving and tripling steps to reach 1 in `3x+1' problem, or -1 if 1 is never reached](https://oeis.org/A006577)
+
 

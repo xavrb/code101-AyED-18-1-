@@ -102,7 +102,8 @@ g++ -o 5 5.cpp
 ### Formar un menú con los siguientes dos programas:  
 
 Realizar una función, y un programa que la utilice, que muestre el problema de Collatz (*Ulam problem*)¹².
-Sea `a_0` un entero. Entonces uno de los problemas de Collatz pregunta si iterando:
+Sea `a_0` un entero. Entonces uno de los problemas de Collatz pregunta si iterando:  
+
 ![collatz o ulam](http://mathworld.wolfram.com/images/equations/CollatzProblem/NumberedEquation1.gif)  
 
 Siempre regresa `1` para `a_0` positivo.

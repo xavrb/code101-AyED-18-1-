@@ -16,7 +16,7 @@ for ( int FOR  = 2 ; FOR != 4 ; FOR = FOR+2 ){
 cout << " vamonos ";
 ```
 
-```
+ 
 a. FOR2  
 **b. FOR2vamonos**
 c. FOR0vamonos  
@@ -24,7 +24,7 @@ d. FOR1
 e. FOR2  
 f. 2  
 g. vamonos    
-``` 
+ 
 
 2. Realice el diagrama de flujo del inciso 03
 
@@ -35,7 +35,7 @@ do{
 	For++;  cout << "For” ;
 	cout << For ; For++;}while(For==3);
 ``` 
-```
+ 
 a. 3For  
 b. For3  
 c. 3  
@@ -44,9 +44,9 @@ e. 4
 f. 3For3
 **g. For4** 
 h. ninguna
-```
+ 
 4. ¿Cuál es el ciclo que primero pregunta la condición y después se ejecuta o no?
-```
+ 
 a. if
 b. switch     
 c. while      
@@ -55,7 +55,7 @@ e. do...while
 f. else   
 **g. while...do**      
 h. ninguna
-``` 
+ 
 
 5. 
 
@@ -67,7 +67,7 @@ while(X=5; X!=5; X--){
 	cout << "XX" << X ;
 }  
 cout <<  X ;
-``` 
+
 a. XX5  
 b. 8   
 c. XX0  

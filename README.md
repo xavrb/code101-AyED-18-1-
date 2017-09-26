@@ -67,6 +67,7 @@ while(X=5; X!=5; X--){
 	cout << "XX" << X ;
 }  
 cout <<  X ;
+``` 
 
 a. XX5  
 b. 8   

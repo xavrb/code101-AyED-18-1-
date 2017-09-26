@@ -18,7 +18,7 @@ cout << " vamonos ";
 
  
 a. FOR2  
-**b. FOR2vamonos**
+**b. FOR2vamonos**  
 c. FOR0vamonos  
 d. FOR1  
 e. FOR2  
@@ -41,7 +41,7 @@ b. For3
 c. 3  
 d. For  
 e. 4  
-f. 3For3
+f. 3For3  
 **g. For4** 
 h. ninguna
  

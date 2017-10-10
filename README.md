@@ -2,6 +2,9 @@
 
 Algoritmos y Estructuras de datos.        18-1         Septiembre 2017.  (PARTE DE EVALUACIÓN CONTINUA)
 
+[¡Nuevos problemas!](nuevosProblemas.md)
+
+
 Nombre del alumno:
 
 ## Preguntas

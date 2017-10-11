@@ -3,7 +3,7 @@
 int collatzSeries(int);
 
 int main(void){
-	if(collatzSeries(500000000)) std::cout <<"Cálculo exitoso"; // se manda a llamar a la funcion de collatz
+	if(collatzSeries(5)) std::cout <<"Cálculo exitoso"; // se manda a llamar a la funcion de collatz
 	return 0;
 }
 
